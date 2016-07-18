@@ -15,6 +15,22 @@
     参考URL
         http://qiita.com/rubytomato@github/items/064e8085d8e25d461fbd
 
+
+    構文チェック
+        VSCodeに、eslint extensionをインストールする
+            ext install
+            eslint
+        パッケージを追加する
+            npm install eslint -g
+
+        プロジェクトディレクトリで下記のコマンドを実行して構文チェックのルールを作成します。
+            eslint --init
+
+        ワークスペース設定を変更する
+            "eslint.enable": true,
+            "javascript.validate.enable": false
+
+
 3.Git(バージョン管理)
 
     初期設定
@@ -49,9 +65,19 @@
         http://www.atmarkit.co.jp/ait/series/3190/
 
 
+4.GitHub
+    GitHubに接続する
+
+        git remote add origin https://github.com/nezimaki/sampe_node.git
+        git push -u origin master
+
+
+    
 開発
     インストール
         npm install cheerio-httpcli
+        npm install request
+        npm install xml2js
 
 
 

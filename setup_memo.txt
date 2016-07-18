@@ -1,0 +1,43 @@
+
+<全体>
+
+1.NodeJSセットアップ
+    node-v4.4.7-x64.msi
+    npmもインストールされる模様
+
+    参考URL
+        http://yohshiy.blog.fc2.com/blog-entry-307.html
+
+2.Visual Studio Code
+
+    「ファイル―基本設定ーユーザ設定」
+
+    参考URL
+        http://qiita.com/rubytomato@github/items/064e8085d8e25d461fbd
+
+3.Git(バージョン管理)
+
+    初期設定
+        git config --global user.name "Kazuya Yoneyama"
+        git config --global user.email yoneyama@smartscape.co.jp
+
+        確認
+        git config --list
+
+
+
+
+    参考URL
+        イラストでわかるGit
+        http://blog.asial.co.jp/894
+
+        こっそり始めるGit(windows)
+        http://www.atmarkit.co.jp/ait/series/3190/
+
+
+開発
+    インストール
+        npm install cheerio-httpcli
+
+
+

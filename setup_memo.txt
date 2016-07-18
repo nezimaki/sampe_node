@@ -32,6 +32,13 @@
         「git commit」で変更内容を「リポジトリ」にコミット
             「git commit -m "first commit"」
         「git log」でコミットの履歴を確認
+            「git log -p」オプションを使うと、そのコミットの変更点を表示
+
+        「git log」コマンドの「--oneline --decorate」オプションで「ポインタが、どのコミットを指しているか」を表示
+
+
+        ブランチを新規作成・一覧表示する――git branchコマンド
+        ブランチの切り替えを行う――git checkoutコマンド
 
 
     参考URL

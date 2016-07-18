@@ -24,7 +24,14 @@
         確認
         git config --list
 
+    使い方
+        「git init」でGitの「リポジトリ」を初期化
 
+        「git status」でステータスを確認
+        「git add」でファイルの追跡を開始
+        「git commit」で変更内容を「リポジトリ」にコミット
+            「git commit -m "first commit"」
+        「git log」でコミットの履歴を確認
 
 
     参考URL
